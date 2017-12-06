@@ -4,8 +4,8 @@
 
 
     	
-       <dependency>
+        <dependency>
 			<groupId>com.xiaoshu</groupId>
 			<artifactId>springmvc-apiframework</artifactId>
 			<version>version-name</version>
-		</dependency>
+        </dependency>
