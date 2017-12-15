@@ -12,13 +12,33 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
-
- * 用于管理 WebContext 对象的生命周期
-
- * @author Administrator
-
+ * 
+ * code is far away from bug with the animal protecting
+ * ┏┓　　　┏┓
+ * ┏┛┻━━━┛┻┓
+ * ┃　　　　　　　┃
+ * ┃　　　━　　　┃
+ * ┃　┳┛　┗┳　┃
+ * ┃　　　　　　　┃
+ * ┃　　　┻　　　┃
+ * ┃　　　　　　　┃
+ * ┗━┓　　　┏━┛
+ * 　　┃　　　┃神兽保佑
+ * 　　┃　　　┃代码无BUG！
+ * 　　┃　　　┗━━━┓
+ * 　　┃　　　　　　　┣┓
+ * 　　┃　　　　　　　┏┛
+ * 　　┗┓┓┏━┳┓┏┛
+ * 　　　┃┫┫　┃┫┫
+ * 　　　┗┻┛　┗┻┛
  *
-
+ *
+ * @Description : 用于管理 WebContext 对象的生命周期
+ * ---------------------------------
+ * @Author : deane.administrator
+ * @Date : Create in 2017年12月15日下午4:53:56
+ * 
+ * Copyright (C)2013-2017 小树盛凯科技 All rights reserved.
  */
 public class WebContextFilter implements Filter{
 
