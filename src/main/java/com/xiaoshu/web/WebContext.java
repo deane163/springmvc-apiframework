@@ -34,29 +34,29 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class WebContext {
 
-	private static ThreadLocal<HttpServletRequest> request = new ThreadLocal<HttpServletRequest>();
+	private static ThreadLocal<HttpServletRequest> requestHolder = new ThreadLocal<HttpServletRequest>();
 	
-	private static ThreadLocal<HttpServletResponse> response = new ThreadLocal<HttpServletResponse>();
+	private static ThreadLocal<HttpServletResponse> responseHolder = new ThreadLocal<HttpServletResponse>();
 	
 	public static void init (HttpServletRequest req, HttpServletResponse res){
-		request.set(req);
-		response.set(res);
+		requestHolder.set(req);
+		responseHolder.set(res);
 	}
 	
 	public static void destory(){
 		
-		request.remove();
-		response.remove();
+		requestHolder.remove();
+		responseHolder.remove();
 		
 	}
 
 	public static HttpServletRequest getRequest() {
-		return request.get();
+		return requestHolder.get();
 	}
 
 
 	public static HttpServletResponse getResponse() {
-		return response.get();
+		return responseHolder.get();
 	}
 
 	
