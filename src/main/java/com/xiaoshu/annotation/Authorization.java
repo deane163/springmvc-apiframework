@@ -34,7 +34,7 @@ import java.lang.annotation.Target;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 
+ * @Description : 权限认证的 Annotation
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2017年12月16日 下午2:57:59
