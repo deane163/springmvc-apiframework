@@ -3,6 +3,7 @@ package com.xiaoshu.util;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
 
 /**
  * 
@@ -33,6 +34,7 @@ import org.springframework.context.ApplicationContextAware;
  * 
  * Copyright (C)2013-2018 小树盛凯科技 All rights reserved.
  */
+@Component
 public class SpringContextUtil implements ApplicationContextAware {
 
 	private static ApplicationContext myApplicationContext;
