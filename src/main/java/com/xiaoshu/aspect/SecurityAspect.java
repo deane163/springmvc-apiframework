@@ -41,7 +41,7 @@ import com.xiaoshu.security.TokenManager;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 
+ * @Description : 进行权限认证的AOP类实现
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2017年12月16日 下午3:04:27
