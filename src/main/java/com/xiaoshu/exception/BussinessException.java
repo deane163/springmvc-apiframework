@@ -2,6 +2,35 @@ package com.xiaoshu.exception;
 
 import java.io.Serializable;
 
+/**
+ * 
+ * code is far away from bug with the animal protecting
+ * ┏┓　　　┏┓
+ * ┏┛┻━━━┛┻┓
+ * ┃　　　　　　　┃
+ * ┃　　　━　　　┃
+ * ┃　┳┛　┗┳　┃
+ * ┃　　　　　　　┃
+ * ┃　　　┻　　　┃
+ * ┃　　　　　　　┃
+ * ┗━┓　　　┏━┛
+ * 　　┃　　　┃神兽保佑
+ * 　　┃　　　┃代码无BUG！
+ * 　　┃　　　┗━━━┓
+ * 　　┃　　　　　　　┣┓
+ * 　　┃　　　　　　　┏┛
+ * 　　┗┓┓┏━┳┓┏┛
+ * 　　　┃┫┫　┃┫┫
+ * 　　　┗┻┛　┗┻┛
+ *
+ *
+ * @Description : 对业务抛出异常的类名称
+ * ---------------------------------
+ * @Author : deane.administrator
+ * @Date : Create in 2018年1月3日下午1:49:56
+ * 
+ * Copyright (C)2013-2018 小树盛凯科技 All rights reserved.
+ */
 public class BussinessException extends RuntimeException implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
