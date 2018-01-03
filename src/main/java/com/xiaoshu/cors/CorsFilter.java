@@ -33,7 +33,7 @@ import java.util.List;
  * 　　　┗┻┛　┗┻┛
  *
  *
- * @Description : 支持 CORS 跨域
+ * @Description : 支持 CORS 跨域，需要在XML中配置 Filter 过滤器信息
  * ---------------------------------
  * @Author : deane.administrator
  * @Date : Create in 2017年12月15日下午4:53:28

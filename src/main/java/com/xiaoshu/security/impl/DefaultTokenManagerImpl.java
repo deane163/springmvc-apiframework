@@ -37,6 +37,7 @@ import com.xiaoshu.security.TokenManager;
  * 
  * Copyright (C)2013-2017 小树盛凯科技 All rights reserved.
  */
+
 public class DefaultTokenManagerImpl implements TokenManager {
 
 	private ConcurrentHashMap<String, Object> tokenMaps = new ConcurrentHashMap<String, Object>();
