@@ -58,7 +58,6 @@ public class SecurityAspect {
 		this.tokenManager = tokenManager;
 	}
 
-
 	public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {
 		// 从切点上获取目标方法
 		MethodSignature methodSignature = (MethodSignature) joinPoint.getSignature();

@@ -50,10 +50,16 @@ public class DefaultTokenManagerImpl implements TokenManager {
 
 	@Override
 	public String createToken(String userName) {
+	    //创建Token，并返回
 		String token = UUID.randomUUID().toString().replace("-", "");
 		tokenMaps.put(SECURITY_USER_TOKEN + token, token);
-		
 		return token;
 	}
+	
+	@Override
+    public void deleteToken(String token){
+	    //删除Token
+	    tokenMaps.remove(SECURITY_USER_TOKEN + token); 
+    }
 
 }

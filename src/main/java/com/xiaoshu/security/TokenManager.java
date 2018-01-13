@@ -40,4 +40,6 @@ public interface TokenManager {
 	
 	public String createToken(String userName);
 	
+	public void deleteToken(String token);
+	
 }
